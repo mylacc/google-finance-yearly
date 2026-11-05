@@ -61,3 +61,7 @@ No permissions are requested beyond running on `google.com/finance/*`. No networ
   `findHeadline()` are the place to look.
 - Only `www.google.com/finance` and `google.com/finance` are matched. Add other
   country domains to `manifest.json` → `matches` if you use them.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
