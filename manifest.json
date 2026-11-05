@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Google Finance: Annualized Gain",
+  "version": "1.0.2",
+  "description": "Shows the annualized (CAGR) return next to Google Finance's total % change for 5Y and MAX chart windows.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/finance/*",
+        "https://google.com/finance/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
